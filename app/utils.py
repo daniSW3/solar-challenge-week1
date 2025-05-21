@@ -7,7 +7,7 @@ def load_data():
     try:
         benin = pd.read_csv('datas/benin-malanville.csv')
         sierra_leone = pd.read_csv('datas/sierraleone-bumbuna.csv')
-        togo = pd.read_csv('togo-dapaong_qc.csv')
+        togo = pd.read_csv('datas/togo-dapaong_qc.csv')
 
         # Add Country column
         benin['Country'] = 'Benin'
